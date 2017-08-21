@@ -17,7 +17,7 @@ class Wheat < Crops
   puts "How many hectres of wheat do you want to plant in field 1?"
   answer = gets.chomp.to_i
   @@corn_field2 << answer
-  puts "you've added #{@@corn_field2} hectres of corn to field 1"
+  puts "you've added #{@@corn_field2} hectres of corn to field 2"
 
   end
 
